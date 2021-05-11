@@ -13,6 +13,10 @@ export class HomeComponent implements OnInit {
   img5 = 'assets/img/home/img2.png';
   img6 = 'assets/img/home/img3.png';
   img7 = 'assets/img/home/img4.png';
+  bg = 'assets/img/home/bg.gif';
+  bg1 = 'assets/img/home/bg1.gif';
+  bg2 = 'assets/img/home/bg2.gif';
+  bg3 = 'assets/img/home/bg3.gif';
 
   hislide = 'assets/jquery.hislide.js'
   constructor() { }
