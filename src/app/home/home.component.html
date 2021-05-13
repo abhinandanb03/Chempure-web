@@ -105,35 +105,116 @@
     </div>
 </section>
 
-<section class="hero">
-    <div class="container has-text-centered">
-        <p class="title" style="font-size: 50px;">
-            Welcome to Chempure Technologies
-        </p>
+<section class="hero is-medium">
+  <div class="container has-text-centered">
+    <br><br>
+    <p class="title" style="font-size: 50px;">
+        Our Gallery
+    </p>
+  </div>  
+  <div id="cards_landscape_wrap-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <a href="">
+                    <div class="card-flyer">
+                        <div class="text-box">
+                            <div class="image-box">
+                                <img src="{{img4}}" alt="" />
+                            </div>
+                            <div class="text-container">
+                                <h6>Water Treatment Plant</h6>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <a href="">
+                    <div class="card-flyer">
+                        <div class="text-box">
+                            <div class="image-box">
+                                <img src="{{img5}}" alt="" />
+                            </div>
+                            <div class="text-container">                                    
+                                <h6>Waste Water Treatment</h6>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <a href="">
+                    <div class="card-flyer">
+                        <div class="text-box">
+                            <div class="image-box">
+                                <img src="{{img6}}" alt="" />
+                            </div>
+  
+                            <div class="text-container">
+                                <h6>Solid Waste Management</h6>
+                               <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <a href="">
+                    <div class="card-flyer">
+                        <div class="text-box">
+                            <div class="image-box">
+                                <img src="{{img7}}" alt="" />
+                            </div>
+                            <div class="text-container">
+                                <h6>Water Treatment Chemicals</h6>
+                               <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
-    <section class="gal">
-        <input type="radio" name="position" checked />
-        <input type="radio" name="position" />
-        <input type="radio" name="position" />
-        <input type="radio" name="position" />
-        <main id="carousel">
-            <div class="item">
-                <img src="{{img4}}" alt="Img 1">
-                <a href="#" class="clickme green">Read More</a>
-            </div>
-            <div class="item">
-                <img src="{{img5}}" alt="Img 2">
-                <a href="#" class="clickme green">Read More</a>
-            </div>
-            <div class="item">
-                <img src="{{img6}}" alt="Img 3">
-                <a href="#" class="clickme green">Read More</a>
-            </div>
-            <div class="item">
-                <img src="{{img7}}" alt="Img 4">
-                <a href="#" class="clickme green">Read More</a>
-            </div>
-        </main>
-    </section>
+  </div>
 </section>
 
+<section class="hero is-medium" style="background-color: #60b4df;">
+  <div class="container has-text-centered">
+    <br><br>
+    <p class="title" style="font-size: 50px;">
+        Our Credibility
+    </p>
+  </div>
+  <div class="container"> 
+    <div class="card-deck">
+      <div class="card" *ngFor='let i of card' style="background-color: #01c975;">
+        <img class="card-img-top" src="{{i.img}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{i.txt}}</h5>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+</section>
+
+
+<section class="hero is-medium" style="padding: 10px 40px;">
+  <div class="container has-text-centered">
+    <br><br>
+    <p class="title" style="font-size: 50px;">
+      Trusted Customers
+    </p>
+  </div>
+  <owl-carousel-o [options]="customOptions">
+    
+    <ng-container *ngFor="let slide of slides" >
+      <ng-template carouselSlide [slide]="slide.id">
+        <img [src]="slide.img" style="background-color: #333">
+      </ng-template>
+    </ng-container>
+      
+  </owl-carousel-o>
+</section>
