@@ -1,3 +1,5 @@
+<app-header></app-header>
+<div class="back-to-top"></div>
 <header>
   <div class="container">
       <input type="checkbox" name="" id="check">
@@ -12,8 +14,11 @@
                   <li class="nav-link" style="--i: .6s">
                       <a routerLink='' routerLinkActive='active'>Home</a>
                   </li>
+                  <li class="nav-link" style="--i: .6s">
+                    <a routerLink='' routerLinkActive='active'>Profile</a>
+                  </li>
                   <li class="nav-link" style="--i: .85s">
-                      <a href="#">Products<i class="fas fa-caret-down"></i></a>
+                      <a>Products<i class="fas fa-caret-down"></i></a>
                       <div class="dropdown">
                           <ul>
                               <li class="dropdown-link">
@@ -39,14 +44,14 @@
                     <a href="#">Clientele</a>
                   </li>
                   <li class="nav-link" style="--i: 1.1s">
-                      <a href="#">Gallary<i class="fas fa-caret-down"></i></a>
+                      <a>Gallary<i class="fas fa-caret-down"></i></a>
                       <div class="dropdown">
                           <ul>
                               <li class="dropdown-link">
-                                  <a href="#">Videos</a>
+                                  <a routerLink='igallery' routerLinkActive='active'>Images</a>
                               </li>
                               <li class="dropdown-link">
-                                  <a href="#">Images</a>
+                                  <a routerLink='vgallery' routerLinkActive='active'>Videos</a>
                               </li>
                               <div class="arrow"></div>
                           </ul>
@@ -68,3 +73,5 @@
 </header>
 
 <router-outlet></router-outlet>
+
+<app-footer></app-footer>

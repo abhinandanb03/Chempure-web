@@ -19,6 +19,7 @@ export class HomeComponent implements OnInit {
   bg1 = 'assets/img/home/bg1.gif';
   bg2 = 'assets/img/home/bg2.gif';
   bg3 = 'assets/img/home/bg3.gif';
+  bg4 = 'assets/img/home/bg4.gif';
   
   slides = [
     {id: 1, img: 'assets/img/clients/c1.jpg'},
