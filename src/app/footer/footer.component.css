@@ -39,7 +39,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
+	background-color: dodgerblue;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -58,7 +58,7 @@ ul{
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: #ffffff;
+	color: #6fb936;
 	padding-left: 8px;
 }
 .footer-col .social-links a{
@@ -70,12 +70,12 @@ ul{
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: #ffffff;
+	color: #6fb936;
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
-	background-color: #ffffff;
+	background-color: #6fb936;
 }
 
 .container-bottom{

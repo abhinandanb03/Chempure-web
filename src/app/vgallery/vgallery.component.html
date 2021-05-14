@@ -1,1 +1,75 @@
-<p>vgallery works!</p>
+<div style="background: url('{{cover}}')" class="jumbotron bg-cover text-white">
+    <div class="container py-5 text-center">
+        <h1 class="display-4 font-weight-bold"></h1>
+        <p class="font-italic mb-0"></p><br><br><br>
+        <br>
+    </div>
+</div>
+
+<div class="container page-top">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a href="#" class="fancybox" rel="ligthbox">
+                <iframe width="270" height="300" src="https://www.youtube.com/embed/1rb1tPoOdzk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a href="#" class="fancybox" rel="ligthbox">
+                <iframe width="270" height="300" src="https://www.youtube.com/embed/9BsIwQFpcH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>     
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a href="#" class="fancybox" rel="ligthbox">
+                <iframe width="270" height="300" src="https://www.youtube.com/embed/ajIRlth0kVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a href="#" class="fancybox" rel="ligthbox">
+                <iframe width="270" height="300" src="https://www.youtube.com/embed/8TqoOJMit4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a href="#" class="fancybox" rel="ligthbox">
+                <iframe width="270" height="300" src="https://www.youtube.com/embed/IWwNAnPI1g0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a href="#" class="fancybox" rel="ligthbox">
+                <iframe width="270" height="300" src="https://www.youtube.com/embed/aURCpQKbaAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a href="#" class="fancybox" rel="ligthbox">
+                <iframe width="270" height="300" src="https://www.youtube.com/embed/KKyS38r7UkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>           
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a href="#" class="fancybox" rel="ligthbox">
+                <iframe width="270" height="300" src="https://www.youtube.com/embed/LfalVHPoKs4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb" >
+            <a href="#" class="fancybox" rel="ligthbox">
+                <iframe width="270" height="300" src="https://www.youtube.com/embed/Sk5jzBpLD8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function(){
+  $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+    });
+    
+    $(".zoom").hover(function(){
+		
+		$(this).addClass('transition');
+	}, function(){
+        
+		$(this).removeClass('transition');
+	});
+});
+    
+</script>
