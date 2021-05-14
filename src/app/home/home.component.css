@@ -1,7 +1,7 @@
 hr {
     border: none;
     border-top: 3px double #333;
-    background-color: rgb(177, 235, 235);;
+    background-color: #c5e8f5;
     color: #333;
     overflow: visible;
     text-align: center;
@@ -10,7 +10,7 @@ hr {
 }
 
 hr:after {
-    background: rgb(177, 235, 235);
+    background: #c5e8f5;
     content: '§';
     padding: 0 4px;
     position: relative;
@@ -58,7 +58,7 @@ hr:after {
   #cards_landscape_wrap-2 .card-flyer .image-box{
     background: #ffffff;
     overflow: hidden;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 2px 15px rgba(98, 131, 240, 0.5);
     border-radius: 5px;
   }
   #cards_landscape_wrap-2 .card-flyer .image-box img{
@@ -91,11 +91,11 @@ hr:after {
     -ms-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 3px 4px rgba(98, 131, 240, 0.5);
   }
   #cards_landscape_wrap-2 .card-flyer:hover{
     background: #fff;
-    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 15px 26px rgba(98, 131, 240, 0.5);
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     -ms-transition: all 0.2s ease-in;
