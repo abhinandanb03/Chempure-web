@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CarouselModule } from 'ngx-owl-carousel-o';
-
+import { FormsModule } from '@angular/forms';
+import { LightboxModule } from 'ngx-lightbox';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,7 +11,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { IgalleryComponent } from './igallery/igallery.component';
 import { VgalleryComponent } from './vgallery/vgallery.component';
-import { LightboxModule } from 'ngx-lightbox';
+import { ContactComponent } from './contact/contact.component';
+import { ClientelleComponent } from './clientelle/clientelle.component';
 
 @NgModule({
   declarations: [
@@ -19,13 +21,16 @@ import { LightboxModule } from 'ngx-lightbox';
     HeaderComponent,
     FooterComponent,
     IgalleryComponent,
-    VgalleryComponent
+    VgalleryComponent,
+    ContactComponent,
+    ClientelleComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CarouselModule,
-    LightboxModule 
+    LightboxModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
