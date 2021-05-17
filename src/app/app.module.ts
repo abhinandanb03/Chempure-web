@@ -13,6 +13,8 @@ import { IgalleryComponent } from './igallery/igallery.component';
 import { VgalleryComponent } from './vgallery/vgallery.component';
 import { ContactComponent } from './contact/contact.component';
 import { ClientelleComponent } from './clientelle/clientelle.component';
+import { ProfileComponent } from './profile/profile.component';
+import { StrengthComponent } from './strength/strength.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { ClientelleComponent } from './clientelle/clientelle.component';
     IgalleryComponent,
     VgalleryComponent,
     ContactComponent,
-    ClientelleComponent
+    ClientelleComponent,
+    ProfileComponent,
+    StrengthComponent,
   ],
   imports: [
     BrowserModule,

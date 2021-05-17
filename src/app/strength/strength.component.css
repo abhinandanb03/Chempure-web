@@ -1,0 +1,31 @@
+.container{
+    padding: 20px
+}
+
+p{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: mediumseagreen;
+}
+
+h3{
+    color: mediumseagreen;
+    font-size: 45px;
+}
+.container2{
+    margin: 0px 50px;
+
+}
+
+ul {
+    list-style-type: square;
+}
+  
+.list{
+    font-size: 20px;
+    text-indent: 3mm;
+}
