@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./waste.component.css']
 })
 export class WasteComponent implements OnInit {
-
+  cover= 'assets/img/products/wwt/cover.png'
   constructor() { }
 
   ngOnInit(): void {

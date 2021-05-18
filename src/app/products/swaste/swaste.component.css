@@ -1,0 +1,40 @@
+.container{
+    padding: 20px;
+}
+
+ul {
+    list-style-type: square;
+}
+  
+.list{
+    font-size: 20px;
+    text-indent: 3mm;
+}
+ol {
+    list-style-type: none;
+}
+
+p{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: mediumseagreen;
+}
+
+h3{
+    padding-top: 10px;
+    color: mediumseagreen;
+    font-size: 35px;
+}
+h4{
+    color: mediumseagreen;
+    font-size: 25px;
+}
+
+img{
+    margin: 0px 80px;
+    padding: 20px 0px;
+}

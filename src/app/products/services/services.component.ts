@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./services.component.css']
 })
 export class ServicesComponent implements OnInit {
-
+  cover = 'assets/img/products/services/cover.png'
   constructor() { }
 
   ngOnInit(): void {
