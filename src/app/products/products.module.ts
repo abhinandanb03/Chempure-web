@@ -14,7 +14,7 @@ import { ProductsComponent } from './products/products.component';
     ChemicalsComponent,
     ServicesComponent,
     SwasteComponent,
-    ProductsComponent
+    ProductsComponent,
   ],
   imports: [
     CommonModule,

@@ -96,9 +96,168 @@
                     <li><p>Ensure safe environment of working places by providing PPF gadgets</p></li>
                     <li><p>Repair and refurbishment of major components</p></li>
                 </ol>
-                <ul class="list" style="margin: 0px 50px;">
-                    <li><a href="">Operation and Maintenance</a></li>
-                    <li><a href="">Spares, Components & Consumables</a></li>
+
+
+                <ul class="list">
+                    <li>
+                        <div style="margin: 0px; padding: 10px 0px">
+                            <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal">
+                                Operation and Maintenance
+                            </button>
+                            <!-- The Modal -->
+                            <div class="modal fade" id="myModal">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                
+                                  <!-- Modal Header -->
+                                  <div class="modal-header">
+                                    <h4 class="modal-title">Operation and Maintenance</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  </div>
+                                  
+                                  <!-- Modal body -->
+                                  <div class="modal-body">
+                                    <div id="accordion">
+                                        <div class="card">
+                                          <div class="card-header">
+                                            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                                Water treatment Plants                                              
+                                            </a>
+                                          </div>
+                                          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                            <div class="card-body">
+                                                <div class="container" >
+                                                    <div class="col-sm-12">
+                                                        <div class="card-deck">
+                                                            <div class="card" *ngFor = 'let i of set1'>
+                                                            <img class="card-img-top" src="{{i.img}}" alt="Card image cap">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">{{i.title}}</h5>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-deck" style="padding: 10px 0px">
+                                                            <div class="card" *ngFor = 'let i of set2'>
+                                                            <img class="card-img-top" src="{{i.img}}" alt="Card image cap">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">{{i.title}}</h5>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="card">
+                                          <div class="card-header">
+                                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                                                Waste water treatment Plants
+                                          </a>
+                                          </div>
+                                          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                            <div class="card-body">
+                                              <ul style="padding: 10px">
+                                                <li>Sewage Treatment Plant</li>
+                                                <li>Effluent Treatment plant</li>
+                                                <li>Zero discharge effluent treatment plants</li>
+                                                <li>Recycle Reverse osmosis system</li>
+                                              </ul>
+                                              <div class="card-deck" style="padding: 10px 0px">
+                                                <div class="card" *ngFor = 'let i of set3'>
+                                                <img class="card-img-top" src="{{i}}" alt="Card image cap">
+                                                </div>
+                                            </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                                  
+                                  <!-- Modal footer -->
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#myModal2">
+                                Spares, Components & Consumables
+                            </button>
+                            <!-- The Modal -->
+                            <div class="modal fade" id="myModal2">
+                              <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                
+                                  <!-- Modal Header -->
+                                  <div class="modal-header">
+                                    <h4 class="modal-title">Spares, Components & Consumables</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  </div>
+                                  
+                                  <!-- Modal body -->
+                                  <div class="modal-body">
+                                    <div class="container">
+                                      <h3>Spares:</h3>
+                                      <div class="row">
+                                        <div class="col-sm-3 col-md-offset-2" *ngFor='let i of set4' style="padding:10px">
+                                          <div class="card">
+                                            <div class="card-image">
+                                              <figure class="image is-4by3">
+                                                <img src="{{i.img}}" alt="Placeholder image">
+                                              </figure>
+                                            </div>
+                                            <div class="card-content">
+                                              <div class="media">
+                                                <div class="media-content">
+                                                  <p class="title is-6">{{i.title}}</p>
+                                                </div>
+                                              </div>                                                                       
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <h3>Components</h3>
+                                      <div class="row">
+                                        <div class="col-sm-3 col-md-offset-2" *ngFor='let i of set5' style="padding:10px">
+                                          <div class="card">
+                                            <div class="card-image">
+                                              <figure class="image is-4by3">
+                                                <img src="{{i.img}}" alt="Placeholder image">
+                                              </figure>
+                                            </div>
+                                            <div class="card-content">
+                                              <div class="media">
+                                                <div class="media-content">
+                                                  <p class="title is-6">{{i.title}}</p>
+                                                </div>
+                                              </div>                                                                       
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <h3>Consumables</h3>
+                                      <ul style="padding: 10px">
+                                        <li>Treatment Process Chemicals – Lime, Ferrous sulphate, Citric acid, TCCA</li>
+                                        <li>Disinfection chemicals – Sodium Hypochlorite, Biocides</li>
+                                        <li>Gear box oils</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <!--body ends here-->
+                                  <!-- Modal footer -->
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>

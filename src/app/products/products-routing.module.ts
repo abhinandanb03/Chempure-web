@@ -6,6 +6,7 @@ import { WasteComponent } from './waste/waste.component';
 import { ChemicalsComponent } from './chemicals/chemicals.component';
 import { ServicesComponent } from './services/services.component';
 import { SwasteComponent } from './swaste/swaste.component';
+
 const routes: Routes = [
     {
         path: 'products',
@@ -26,9 +27,10 @@ const routes: Routes = [
             {
                 path: 'swaste',
                 component: SwasteComponent
-            }
+            },
         ]
-    }
+    },
+    
 ];
 
 
