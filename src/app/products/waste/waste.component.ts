@@ -61,6 +61,36 @@ export class WasteComponent implements OnInit {
   img52= 'assets/img/products/wwt/img53.png'
   img53= 'assets/img/products/wwt/img54.png'
   img54= 'assets/img/products/wwt/img55.png'
+  img56= 'assets/img/products/wwt/img56.jpg'
+  img57= 'assets/img/products/wwt/img57.png'
+  img58= 'assets/img/products/wwt/img58.png'
+  img59= 'assets/img/products/wwt/img59.png'
+  img60= 'assets/img/products/wwt/img60.png'
+  img61= 'assets/img/products/wwt/img61.png'
+  img62= 'assets/img/products/wwt/img62.png'
+  img63= 'assets/img/products/wwt/img63.png'
+  img64= 'assets/img/products/wwt/img64.png'
+  img65= 'assets/img/products/wwt/img65.png'
+  img66= 'assets/img/products/wwt/img66.png'
+  img67= 'assets/img/products/wwt/img67.jpg'
+  img68= 'assets/img/products/wwt/img68.png'
+  img69= 'assets/img/products/wwt/img69.png'
+  img70= 'assets/img/products/wwt/img70.png'
+  img71= 'assets/img/products/wwt/img71.png'
+  img72= 'assets/img/products/wwt/img72.png'
+  img73= 'assets/img/products/wwt/img73.jpg'
+  img74= 'assets/img/products/wwt/img74.png'
+  img75= 'assets/img/products/wwt/img75.png'
+  img76= 'assets/img/products/wwt/img76.png'
+  img77= 'assets/img/products/wwt/img77.png'
+  img78= 'assets/img/products/wwt/img78.png'
+  img79= 'assets/img/products/wwt/img79.png'
+  img80= 'assets/img/products/wwt/img80.png'
+  img81= 'assets/img/products/wwt/img81.png'
+  img82= 'assets/img/products/wwt/img82.png'
+
+
+
 
   constructor() { }
 
