@@ -121,3 +121,22 @@ hr:after {
     letter-spacing: 1px;
     color: #00acc1;
   }
+
+  
+  .services{
+      background: linear-gradient(-45deg, #168AAD, #34A0A4, #52B69A, #76C893);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+    }
+    
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
