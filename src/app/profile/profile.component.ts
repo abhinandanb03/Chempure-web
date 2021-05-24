@@ -16,23 +16,23 @@ export class ProfileComponent implements OnInit {
     txt: 'ISO 9001 : 2015 Certified Since 2004',
   },
   {
-    img: 'assets/img/home/iso-logo1.jpg',
+    img: 'assets/img/home/NFS-logo.jpg',
     txt: 'NSF Certified Since 2019'
   },
   {
-    img: 'assets/img/home/iso-logo2.jpg',
+    img: 'assets/img/home/NSIC-logo.jpg',
     txt: 'NSIC Certified Since 2012',
   },
   {
-    img: 'assets/img/home/iso-logo4.jpg',
+    img: 'assets/img/home/iso-logo2.jpg',
     txt: 'Member of IWO Since 2008'
   },
   {
-    img: 'assets/img/home/NFS-logo.jpg',
+    img: 'assets/img/home/iso-logo1.jpg',
     txt: 'Member of IWA since 2003 - Young Professional Development Award 2008'
   },
   {
-    img: 'assets/img/home/NSIC-logo.jpg',
+    img: 'assets/img/home/iso-logo4.jpg',
     txt: 'Business Excellence Award for the year 2008 from International Study Circle'
   }]
   

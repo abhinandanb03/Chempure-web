@@ -44,7 +44,7 @@
         </p>
         <hr><br>
         <div>
-            <a href="#" class="clickme green">Read More</a>
+            <a routerLink='/profile' class="clickme green">Read More</a>
         </div>
       </div>  
     </div>
@@ -60,36 +60,36 @@
         <div class="col-sm-3">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Water & Waste Water Treatment plant</h5>
+              <h5 class="card-title"><strong>Water & Waste Water Treatment plant</strong></h5>
               <p class="card-text">Wastewater treatment is a process used to remove contaminants from wastewater or sewage and convert...</p>
-              <a href="#" class="clickme green">Read More</a>
+              <a routerLink="/products/waste" class="clickme green">Read More</a>
             </div>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Water Treatment Chemicals</h5>
-              <p class="card-text">With the assistance of our experts, we manufacture and supply a far reaching reach of Water Treatment Chemical.</p><br>
-              <a href="#" class="clickme green">Read More</a>
+              <h5 class="card-title"><strong>Water Treatment Chemicals</strong></h5>
+              <p class="card-text">With the assistance of our experts, we manufacture and supply a far reaching reach of Water Treatment Chemical.</p>
+              <a routerLink="/products/chemicals" class="clickme green">Read More</a>
             </div>
           </div>
         </div>
         <div class="col-sm-3">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Solid Waste Management</h5>
+                <h5 class="card-title"><strong>Solid Waste Management</strong></h5>
                 <p class="card-text">Solid waste management is a term that is used to refer to the process of collecting and treating solid wastes.</p><br>
-                <a href="#" class="clickme green">Read More</a>
+                <a routerLink="/products/swaste" class="clickme green">Read More</a>
               </div>
             </div>
         </div>
         <div class="col-sm-3">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Services</h5>
-                <p class="card-text">Augmentation, Operation and Maintenance, Annual Maintenance Contract, After Sales Service...</p><br><br>
-                <a href="#" class="clickme green">Read More</a>
+                <h5 class="card-title"><strong>Services</strong></h5>
+                <p class="card-text">Augmentation, Operation and Maintenance, Annual Maintenance Contract, After Sales Service...</p><br>
+                <a routerLink="/products/services" class="clickme green">Read More</a>
               </div>
             </div>
         </div>
@@ -98,18 +98,18 @@
     </div>
 </section>
 
-<section class="hero is-medium" style="background-color: #8d87f6;">
+<section class="hero is-medium" style="background-color: #fdfdfd;">
   <div class="container has-text-centered">
     <br><br>
     <p class="title" style="font-size: 50px; ">
         Our Gallery
     </p>
   </div>  
-  <div id="cards_landscape_wrap-2" style="background-color: #8d87f6;">
+  <div id="cards_landscape_wrap-2" style="background-color: #fdfdfd;">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <a href="">
+                <a routerLink='/igallery'>
                     <div class="card-flyer">
                         <div class="text-box">
                             <div class="image-box">
@@ -124,7 +124,7 @@
                 </a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <a href="">
+                <a routerLink='/igallery'>
                     <div class="card-flyer">
                         <div class="text-box">
                             <div class="image-box">
@@ -139,7 +139,7 @@
                 </a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <a href="">
+                <a routerLink='/igallery'>
                     <div class="card-flyer">
                         <div class="text-box">
                             <div class="image-box">
@@ -155,7 +155,7 @@
                 </a>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <a href="">
+                <a routerLink='/igallery'>
                     <div class="card-flyer">
                         <div class="text-box">
                             <div class="image-box">
@@ -186,7 +186,7 @@
       <div class="card" *ngFor='let i of card' style="background-color: #01c975;">
         <img class="card-img-top" src="{{i.img}}" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">{{i.txt}}</h5>
+          <h5 class="card-title" style="color: #fdfdfd;">{{i.txt}}</h5>
         </div>
       </div>
     </div>

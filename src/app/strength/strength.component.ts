@@ -10,6 +10,8 @@ export class StrengthComponent implements OnInit {
   img1 = 'assets/img/strength/iso.gif';
   img2 = 'assets/img/strength/qc.png';
   img3 = 'assets/img/strength/img4.png'
+  img4 = 'assets/img/strength/qualityassurence.png'
+  img5 = ''
   constructor() { }
 
   ngOnInit(): void {
