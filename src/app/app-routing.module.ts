@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ClientelleComponent } from './clientelle/clientelle.component';
 import { ProfileComponent } from './profile/profile.component';
 import { StrengthComponent } from './strength/strength.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home',pathMatch: 'full'},
@@ -18,6 +19,8 @@ const routes: Routes = [
   {path: 'client', component: ClientelleComponent},
   {path: 'profile', component: ProfileComponent},
   {path: 'strength', component: StrengthComponent},
+  { path: '**', pathMatch: 'full', 
+        component: PagenotfoundComponent },
 ];
 
 @NgModule({

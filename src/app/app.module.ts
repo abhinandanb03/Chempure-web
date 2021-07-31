@@ -16,6 +16,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ClientelleComponent } from './clientelle/clientelle.component';
 import { ProfileComponent } from './profile/profile.component';
 import { StrengthComponent } from './strength/strength.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { StrengthComponent } from './strength/strength.component';
     ClientelleComponent,
     ProfileComponent,
     StrengthComponent,
+    PagenotfoundComponent,
   ],
   imports: [
     BrowserModule,
