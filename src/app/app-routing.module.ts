@@ -19,8 +19,8 @@ const routes: Routes = [
   {path: 'client', component: ClientelleComponent},
   {path: 'profile', component: ProfileComponent},
   {path: 'strength', component: StrengthComponent},
-  { path: '**', pathMatch: 'full', 
-        component: PagenotfoundComponent },
+  // { path: '**', pathMatch: 'full', 
+  //       component: PagenotfoundComponent },
 ];
 
 @NgModule({
