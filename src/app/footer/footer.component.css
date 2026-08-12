@@ -62,14 +62,22 @@ ul{
 	color: #6fb936;
 	padding-left: 8px;
 }
+.footer-col .contact-info-link{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.social-links {
+	display: flex !important ;
+}
 .footer-col .social-links a{
-	display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	height: 40px;
 	width: 40px;
 	background-color: rgba(255,255,255,0.2);
 	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
 	border-radius: 50%;
 	color: #6fb936;
 	transition: all 0.5s ease;

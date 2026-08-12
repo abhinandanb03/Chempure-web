@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-waste',
-  templateUrl: './waste.component.html',
-  styleUrls: ['./waste.component.css']
+    selector: 'app-waste',
+    templateUrl: './waste.component.html',
+    styleUrls: ['./waste.component.css'],
+    standalone: false
 })
 export class WasteComponent implements OnInit {
   cover= 'assets/img/products/wwt/cover.png'

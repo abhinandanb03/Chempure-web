@@ -131,7 +131,7 @@ section{
     transition: .5s;
 }
 
-.nav-link > a > i{
+.nav-link > a > hugeicons-icon{
     margin-left: .2rem;
 }
 
@@ -424,8 +424,7 @@ section{
         background-color: #3595c5;
     }
 
-    .nav-link > a > i{
-        font-size: 1.1rem;
+    .nav-link > a > hugeicons-icon{
         transform: rotate(-90deg);
         transition: .7s;
     }

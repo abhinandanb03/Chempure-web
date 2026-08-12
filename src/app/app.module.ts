@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { FormsModule } from '@angular/forms';
 import { LightboxModule } from 'ngx-lightbox';
+import { HugeiconsIconComponent } from '@hugeicons/angular';
 import { AppRoutingModule } from './app-routing.module';
 import { ProductsModule } from './products/products.module';
 
@@ -36,7 +37,8 @@ import { StrengthComponent } from './strength/strength.component';
     CarouselModule,
     LightboxModule,
     FormsModule,
-    ProductsModule
+    ProductsModule,
+    HugeiconsIconComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

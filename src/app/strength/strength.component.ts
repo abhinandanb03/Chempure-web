@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-strength',
-  templateUrl: './strength.component.html',
-  styleUrls: ['./strength.component.css']
+    selector: 'app-strength',
+    templateUrl: './strength.component.html',
+    styleUrls: ['./strength.component.css'],
+    standalone: false
 })
 export class StrengthComponent implements OnInit {
   cover = 'assets/img/strength/cover.png';

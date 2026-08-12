@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { HugeiconsIconComponent } from '@hugeicons/angular';
 
 import { ContactComponent } from './contact.component';
 
@@ -8,6 +9,7 @@ describe('ContactComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      imports: [ HugeiconsIconComponent ],
       declarations: [ ContactComponent ]
     })
     .compileComponents();

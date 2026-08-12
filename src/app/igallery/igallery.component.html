@@ -1,36 +1,38 @@
 <div style="background: url('{{cover}}')" class="jumbotron bg-cover text-white">
-    <div class="container py-5 text-center">
-        <h1 class="display-4 font-weight-bold"></h1>
-        <p class="font-italic mb-0"></p><br><br><br>
-        <br>
+  <div class="container py-5 text-center">
+    <h1 class="display-4 font-weight-bold"></h1>
+    <p class="font-italic mb-0"></p><br><br><br>
+    <br>
     </div>
-</div>
+  </div>
 
-    <!-- Page Content -->
-<div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb" *ngFor='let i of images'>
-             <a href="{{i}}" class="fancybox" rel="ligthbox">
-                <img  src="{{i}}" class="zoom img-fluid "  alt="">               
-            </a>
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      @for (i of images; track i) {
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+          <a href="{{i}}" class="fancybox" rel="ligthbox">
+            <img  src="{{i}}" class="zoom img-fluid "  alt="">
+          </a>
         </div>
+      }
     </div>
-</div>
+  </div>
 
-<script>
-$(document).ready(function(){
-  $(".fancybox").fancybox({
-        openEffect: "none",
-        closeEffect: "none"
+  <script>
+    $(document).ready(function(){
+    $(".fancybox").fancybox({
+    openEffect: "none",
+    closeEffect: "none"
     });
-    
+
     $(".zoom").hover(function(){
-		
-		$(this).addClass('transition');
-	}, function(){
-        
-		$(this).removeClass('transition');
-	});
-});
-    
-</script>
+
+    $(this).addClass('transition');
+    }, function(){
+
+    $(this).removeClass('transition');
+    });
+    });
+
+  </script>

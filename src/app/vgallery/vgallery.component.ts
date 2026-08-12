@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-vgallery',
-  templateUrl: './vgallery.component.html',
-  styleUrls: ['./vgallery.component.css']
+    selector: 'app-vgallery',
+    templateUrl: './vgallery.component.html',
+    styleUrls: ['./vgallery.component.css'],
+    standalone: false
 })
 export class VgalleryComponent implements OnInit {
   cover = 'assets/img/gallery/vgallery/cover.png';

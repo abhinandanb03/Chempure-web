@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-clientelle',
-  templateUrl: './clientelle.component.html',
-  styleUrls: ['./clientelle.component.css']
+    selector: 'app-clientelle',
+    templateUrl: './clientelle.component.html',
+    styleUrls: ['./clientelle.component.css'],
+    standalone: false
 })
 export class ClientelleComponent implements OnInit {
   cover = 'assets/img/clients/cover.png';

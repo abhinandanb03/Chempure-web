@@ -1,12 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
+import { Location01Icon, CallIcon, PrinterIcon, Mail01Icon, UserIcon } from '@hugeicons/core-free-icons';
 @Component({
-  selector: 'app-contact',
-  templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
+    selector: 'app-contact',
+    templateUrl: './contact.component.html',
+    styleUrls: ['./contact.component.css'],
+    standalone: false
 })
 export class ContactComponent implements OnInit {
   cover = 'assets/img/contact/cover.png';
+  Location01Icon = Location01Icon;
+  CallIcon = CallIcon;
+  PrinterIcon = PrinterIcon;
+  Mail01Icon = Mail01Icon;
+  UserIcon = UserIcon;
   contact = {
     name: '',
     email: '',
